@@ -202,7 +202,7 @@ label { font-size: 15px; font-weight: 400; color: #aaaaaa; }
 /*----------------------------------------------------------------------
                         Buttons
 -----------------------------------------------------------------------*/
-.button { color: #fff; cursor: pointer; padding: 12px 36px; font-weight: 500; font-size: 16px; border: none; position: relative; background: #04a711; font-family: 'Raleway', sans-serif; display: inline-block; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+.button { color: #fff; cursor: pointer; padding: 12px 36px; font-weight: 500; font-size: 15px; border: none; position: relative; background: #04a711; font-family: 'Raleway', sans-serif; display: inline-block; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
 .button:hover, .button:focus { color: #ffffff; background: #333333; }
 
 /* Buttons white */
@@ -1507,33 +1507,7 @@ Tab
 .media.service-box i { font-size: 50px; margin-right: 20px; color: #4ac3f3; }
 .animationnew-shap { position: absolute; top: 0%; right: 0; }
 .animation-shap { position: absolute; top: 0%; left: 0; }
-.animation-shap { position: absolute; top: 0%; left: 0; }
-.animation-shap .shap-bg, .animationnew-shap .shap-bg { text-align: center; align-content: center; align-items: center; justify-content: center; width: 515px; height: 515px; margin: auto; position: relative; background-color: #04a711; background-image: linear-gradient(-45deg, #04a711 0%, #04a711 100%); border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2); animation: one-animated 5s infinite; overflow: hidden; }
-@keyframes one-animated {
-0% { border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%
-box-shadow:15px 15px 50px rgba(0, 0, 0, 0.2); }
-25% { border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%; }
-50% { border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%
-box-shadow:-10px -5px 50px rgba(0, 0, 0, 0.2); }
-75% { border-radius: 33% 67% 58% 42% / 63% 68% 32% 37%; }
-}
-@keyframes two-animated {
-0% { border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%
-box-shadow:15px 15px 50px rgba(0, 0, 0, 0.2); }
-25% { border-radius: 40% 80% 30% 90% / 72% 65% 35% 28%; }
-50% { border-radius: 65% 35% 45% 55% / 22% 48% 52% 78%
-box-shadow:-10px -5px 50px rgba(0, 0, 0, 0.2); }
-75% { border-radius: 24% 76% 10% 90% / 44% 68% 32% 56%; }
-}
-@keyframes three-animated {
-0% { border-radius: 12% 88% 40% 40% / 20% 15% 85% 80%
-box-shadow:15px 15px 50px rgba(0, 0, 0, 0.2); }
-25% { border-radius: 72% 28% 30% 90% / 15% 46% 54% 85%; }
-50% { border-radius: 12% 88% 40% 40% / 20% 15% 85% 80%
-box-shadow:-10px -5px 50px rgba(0, 0, 0, 0.2); }
-75% { border-radius: 18% 82% 10% 90% / 24% 68% 32% 76%; }
-}
-.iq-badge { text-transform: uppercase; letter-spacing: 2px; font-size: 14px; font-weight: normal; padding: 10px; margin-bottom: 15px; }
+.animation-shap { position: absolute; top: 0%; left: 0; }.iq-badge { text-transform: uppercase; letter-spacing: 2px; font-size: 14px; font-weight: normal; padding: 10px; margin-bottom: 15px; }
 .iq-fancy-boxnew { padding: 40px 15px 25px 15px; overflow: hidden; position: relative; background: #fff; }
 .iq-fancy-boxnew .iq-icon { border-radius: 90px; display: inline-block; height: 86px; width: 86px; line-height: 86px; text-align: center; color: #fff; background: #04a711; -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; }
 .iq-fancy-boxnew .iq-icon i { font-size: 46px; color: #fff; }
@@ -1582,7 +1556,7 @@ box-shadow:-10px -5px 50px rgba(0, 0, 0, 0.2); }
 .iq-objects-asked .iq-objects-03 { position: absolute; top: 28%; left: 13%; border: 25px solid #04a711; border-radius: 900px; height: 350px; width: 350px; }
 
 /*---------------------------------------------------------------------
-                         Great screenshots
+                        Great screenshots
 -----------------------------------------------------------------------*/
 .iq-screenshots { overflow: hidden; position: relative;margin-top: 200px; }
 @keyframes heartbeat {
@@ -1755,7 +1729,7 @@ box-shadow:-10px -5px 50px rgba(0, 0, 0, 0.2); }
 /* Banner style 02 */
 .iq-banner-02.style-2:after { display: none; }
 .iq-banner-02.style-2 .banner-img { margin-bottom: 0; }
-}
+
 
 /* Banner 3 */
 .iq-banner-03 { position: relative; overflow: hidden; }
@@ -2065,3 +2039,8 @@ to { -webkit-transform: rotateX(143deg) rotateY(50deg) rotateZ(0); transform: ro
 .iq-feature-01 .icon-box { color: #666; font-size: 82px; padding: 5px 15px; margin-right: 15px; background: #fff; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
 .iq-feature-01:hover .icon-box { color: #04a711; }
 .iq-feature-01 .feature-body { -ms-flex: 1; flex: 1; }
+
+
+.main{
+  width: 40vw;
+}

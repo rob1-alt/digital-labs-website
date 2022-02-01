@@ -1,13 +1,4 @@
-/*
 
-Template: Sofbox - Responsive Software Landing Page
-Author: iqonicthemes.in
-Version: 3.0
-Design and Developed by: iqonicthemes.in
-
-NOTE: This is main stylesheet of template, This file contains the styling for the actual Template. Please do not change anything here! write in a custom.css file if required!
-
-*/
 
 
 *::-moz-selection { background: var( --primary-theme-color); color: var(--white-theme-color); text-shadow: none; }
@@ -22,13 +13,13 @@ header.menu-sticky.header-white { background: var(--white-theme-color); }
 .iq-banner .iq-video, .iq-works-box .step, .iq-banner-04 .iq-video,  .iq-footer .iq-contact .contact-block i, .iq-footer .post-blog a:hover, .iq-footer .footer-menu li a:hover, .iq-footer .iq-copyright a:hover, .iq-font-blue, .iq-fancy-box .iq-icon,  .iq-blog-detail a:hover, .iq-blog-detail .blog-title a:hover h5, .iq-footer-box .iq-icon i, .footer-copyright a, .iq-breadcrumb .breadcrumb li.active, .iq-breadcrumb .breadcrumb li a:hover, .pagination .page-link, .iq-widget-menu ul li a span:hover, .iq-widget-menu ul ul li a span:hover,  .iq-tags li a:hover, .iq-widget-archives li a:hover, .iq-comment-list .iq-comment-metadata i, header.header-fancy .navbar .navbar-nav .nav-item a:hover, header.header-fancy .navbar .navbar-nav .nav-item a:focus, header.header-fancy .navbar .navbar-nav .nav-item a.active, header.header-fancy .navbar .navbar-nav .nav-item a.active:focus, header.header-fancy .navbar .navbar-nav .nav-item a.active:hover, header.header-white .navbar .navbar-nav .nav-item a:hover, header.header-white .navbar .navbar-nav .nav-item a:focus, header.header-white .navbar .navbar-nav .nav-item a.active, header.header-white .navbar .navbar-nav .nav-item a.active:focus, header.header-white .navbar .navbar-nav .nav-item a.active:hover,  .icon-bg i,  .iq-banner-03 .iq-video, .iq-fancy-box-1 .iq-icon,  .iq-fancy-box-1 .iq-icon, .iq-icon, .media.service-box i, .iq-works-boxes .icons i { color: var( --primary-theme-color); }
 
 /*---------------------------------------------------------------------
-                          Background Color 
+                        Background Color 
 -----------------------------------------------------------------------*/
 .heading-title .title:before, .button,  .border-box:after,   .iq-fancy-box:hover .iq-icon, .iq-client:before, .owl-carousel .owl-nav i:hover, .iq-team .share ul li a:hover, .iq-accordion .ad-title:before, .owl-carousel.owl-theme .owl-dots .owl-dot.active span, .owl-carousel.owl-theme .owl-dots .owl-dot:hover span, .owl-carousel.arrow-1 .owl-nav i:hover, .button.bt-white:hover, .button.bt-white:focus, .info-share li a:hover, .iq-error h6, .pagination .page-item.active .page-link, .blue-bg, header.header-white .navbar .navbar-nav .nav-item a::before, .iq-feature .step-number, .iq-icon:hover,.iq-fancy-boxnew.text-center .icon-bg,.animation-shap .shap-bg, .animationnew-shap .shap-bg, .iq-pricing.active .price-title { background: var( --primary-theme-color); }
 header.menu-sticky, #back-to-top .top:hover { background: rgba(4, 167, 17,0.90); }
 
 /*---------------------------------------------------------------------
-                       Background Gradient 
+                    Background Gradient 
 ---------------------------------------------------------------------*/
 .iq-over-blue-10:before { background: rgba(4, 167, 17,0.1); }
 .iq-over-blue-20:before { background: rgba(4, 167, 17,0.2); }
