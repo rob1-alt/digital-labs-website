@@ -2044,3 +2044,17 @@ to { -webkit-transform: rotateX(143deg) rotateY(50deg) rotateZ(0); transform: ro
 .main{
   width: 40vw;
 }
+
+@media screen and (max-width:768px) {
+  .main{
+    margin-bottom: 200px;
+    width: 70vw;
+  }
+
+  .iq-banner-12{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
