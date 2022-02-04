@@ -1,10 +1,4 @@
-/*
 
-Template: Sofbox - Responsive Software Landing Page
-Author: iqonicthemes.in
-Version: 3.0
-
-*/
 
 /*----------------------------------------------
 Index Of Script
@@ -30,7 +24,7 @@ $(document).ready(function() {
     Page Loader
     --------------------------*/
     jQuery("#load").fadeOut();
-    jQuery("#loading").delay(0).fadeOut("slow");
+    jQuery("#loading").delay(0 ).fadeOut("slow");
 
 
 
