@@ -2047,8 +2047,12 @@ to { -webkit-transform: rotateX(143deg) rotateY(50deg) rotateZ(0); transform: ro
 
 @media screen and (max-width:768px) {
   .main{
+    display: flex;
     margin-bottom: 200px;
     width: 70vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
 
   .iq-banner-12{
@@ -2056,5 +2060,13 @@ to { -webkit-transform: rotateX(143deg) rotateY(50deg) rotateZ(0); transform: ro
     text-align: center;
     justify-content: center;
     align-items: center;
+  }
+
+  .banner-text .justify-content-between .align-self-center h1{
+    text-align: center;
+  }
+
+  .banner-text .justify-content-between .align-self-center h5{
+    text-align: center;
   }
 }
