@@ -2069,4 +2069,17 @@ to { -webkit-transform: rotateX(143deg) rotateY(50deg) rotateZ(0); transform: ro
   .banner-text .justify-content-between .align-self-center h5{
     text-align: center;
   }
+
+  .iq-get-in{
+    display: none;
+  }
+
+  .footer-info{
+    padding: 0px;
+  }
+
+  .white-bg{
+    padding: 20px;
+  }
+
 }
