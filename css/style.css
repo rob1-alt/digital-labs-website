@@ -203,7 +203,7 @@ label { font-size: 15px; font-weight: 400; color: #aaaaaa; }
 .button.bt-white:hover, .button.bt-white:focus { color: #ffffff; background: #04a711; }
 
 /* Buttons white 2 */
-.button.bt-black { color: #333; background: #fff; }
+.button.bt-black { color: #e80707; background: #fff; border-radius: 4px; }
 .button.bt-black:hover, .button.bt-black:focus { color: #ffffff; background: #333; }
 .button.bt-blue { color: #fff; background: #04a711; }
 .button.bt-blue:hover { background-color: #333; }
@@ -619,7 +619,7 @@ header .navbar .navbar-brand img { height: 50px; transition: all 0.5s ease-in-ou
 header .navbar .navbar-nav { margin-top: 0; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
 header .navbar .navbar-nav>li { margin: 0 30px 0 0; position: relative; }
 header .navbar .navbar-nav>li:last-child { margin-right: 0; }
-header .navbar .navbar-nav .nav-item a { color: #ffffff; padding: 10px 0; font-family: 'Raleway', sans-serif; font-size: 16px; }
+header .navbar .navbar-nav .nav-item a { color: #ffffff; padding: 10px 0; font-family: 'DM Sans', sans-serif; font-size: 16px; }
 
 header .button, header .button-line { margin-top: 0; margin-left: 40px; }
 
@@ -891,7 +891,7 @@ to { -webkit-transform: rotateX(143deg) rotateY(50deg) rotateZ(0); transform: ro
 .iq-banner-12 .banner-text .banner-phone { position: absolute; left: -50px; bottom: -31px; width: 40%; }
 .iq-banner-12 .banner-text .form-group .form-control { border: none; height: 50px; margin-top: 9px; border-radius: 0; margin-right: 10px; }
 .iq-banner-12 .banner-text .form-group .form-control:focus { box-shadow: none; border: none; }
-.iq-banner-12 .banner-text .button { border-radius: 0; background: #333333; color: #ffffff; }
+.iq-banner-12 .banner-text .button { border-radius: 40; background: #ff0000; color: #ffffff; }
 .iq-banner-12 .banner-text .button:hover { background: #fff; color: #333333; }
 .iq-banner .banner-text .banner-phone { position: absolute; right: -50px; bottom: -18px; width: 26%; }
 .iq-banner .banner-text .watch-img { position: absolute; width: 20%; top: 52%; right: 85% }
@@ -2013,7 +2013,7 @@ to { -webkit-transform: rotateX(143deg) rotateY(50deg) rotateZ(0); transform: ro
 .iq-banner-12 .banner-text .banner-phone { position: absolute; left: -50px; bottom: -31px; width: 40%; }
 .iq-banner-12 .banner-text .form-group .form-control { border: none; height: 50px; margin-top: 9px; border-radius: 0; margin-right: 10px; }
 .iq-banner-12 .banner-text .form-group .form-control:focus { box-shadow: none; border: none; }
-.iq-banner-12 .banner-text .button { border-radius: 0; background: #333333; color: #ffffff; }
+.iq-banner-12 .banner-text .button { border-radius: 12; background: #666666; color: #ffffff; font-weight: bold;}
 .iq-banner-12 .banner-text .button:hover { background: #fff; color: #333333; }
 
 /* Banner 13*/
@@ -2035,19 +2035,32 @@ to { -webkit-transform: rotateX(143deg) rotateY(50deg) rotateZ(0); transform: ro
 
 
 .main{
+  border-radius: 12px;
   width: 40vw;
 }
 
 @media screen and (max-width:768px) {
   .main{
+    margin-left: 13%;
     display: flex;
-    margin-bottom: 200px;
+    margin-bottom: 300px;
     width: 70vw;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    margin-top: 40px;
+  }
+  .button.bt-black{
+    margin-left: 24%;
   }
 
+  .iq-badge{
+    margin-top: 20px;
+  }
+
+  .col-lg-4{
+    text-align: center;
+  } 
+   .iq-mt-20{
+    margin-left : 5px;
+  }
   .iq-banner-12{
     display: flex;
     text-align: center;
