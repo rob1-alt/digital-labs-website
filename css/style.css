@@ -2089,3 +2089,11 @@ to { -webkit-transform: rotateX(143deg) rotateY(50deg) rotateZ(0); transform: ro
   }
 
 }
+
+
+.client{
+  max-height: 120px;
+  min-height: 120px;
+  object-fit: cover;
+}
+
